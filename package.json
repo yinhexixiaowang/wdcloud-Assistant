@@ -1,0 +1,26 @@
+{
+  "name": "dsh-wdcloud-video-skills",
+  "version": "0.6.0",
+  "type": "module",
+  "main": "./index.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "files": [
+    "index.js",
+    "rules.wdp",
+    "cordis.patch.yml",
+    "README.md",
+    "third-party/"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
