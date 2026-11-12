@@ -1,0 +1,7 @@
+{
+  "project": "dsh-video-vision",
+  "version": "1.3.2",
+  "commit": "7726c0e2ec2ba7930237220c28875d07f8554396",
+  "url": "https://github.com/Destinhue/dsh-video-vision/tree/7726c0e2ec2ba7930237220c28875d07f8554396",
+  "changes": "wdcloud adds opt-out of audio envelope analysis and a separate local-only Harness adapter."
+}
