@@ -14,3 +14,5 @@ wdcloud助手
 ## 拉片输出
 
 从 v0.8.0 起，duration_ms 表示本次分析窗口长度，source_duration_ms 可另记原片总长。sections 概括连续镜头的叙事段落，props 可记录道具的开镜状态，narrative 是可选的一句话总览。旧 JSON 仍可校验，并提示缺少段落。拉片仅分析画面和字幕。
+
+从 v0.8.1 起，贴纸、标题、字幕和水印的变化单独发生时不计为切镜。boundary_basis 记录段落边界依据，camera_actions 单独记录摄影机运动。
