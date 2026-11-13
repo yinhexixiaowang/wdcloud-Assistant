@@ -1,6 +1,6 @@
 {
   "name": "dsh-wdcloud-video-skills",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "type": "module",
   "main": "./index.js",
   "engines": {
@@ -16,7 +16,8 @@
     "rules.wdp",
     "cordis.patch.yml",
     "README.md",
-    "third-party/"
+    "third-party/",
+    "CHANGELOG.md"
   ],
   "dsh": {
     "bundle": {
